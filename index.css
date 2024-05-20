@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+:root {
+    --brown: hsl(14, 45%, 36%);
+    --purplu: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --pink: hsl(330, 100%, 98%);
+    --vvv: hsl(30, 54%, 90%);
+    --xxx: hsl(30, 18%, 87%);
+    --aaa: hsl(30, 10%, 34%);
+  }
+
+
+body 
+{
+    background-color:  hsl(30, 54%, 90%);
+}
+p
+{
+    font-size: 16px;
+}
+.main
+{
+    background-color: var(--white);
+    width: 600px;
+    position: relative;
+    left: 500px;
+    right: 500px;
+
+    border-radius: 15px;
+}
+.cont
+{
+    padding: 20px;
+}
+
+h1 , h2
+{
+    font-family: "Young Serif", serif;
+   
+}
+h2{
+    color: var(--brown);
+}
+.pink
+{
+    border-radius: 10px;
+    background-color: var(--pink);
+}
+.pruple
+{
+    color: var(--purplu);
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.pink li{
+    color: var(--purplu); 
+    padding-left: 20px;
+    
+}
+.spanli{
+    font-weight:bold;
+    color: #000;
+}
+.spanlispan
+{
+    font-weight: 200;
+    color: #000;
+}
+ul li{
+    color: var(--brown);
+    padding-left: 20px;
+}
+ul li span 
+{
+    color: #000;
+
+}
+
+ol li
+{
+    color: var(--brown);
+    padding-left: 20px;
+    font-weight: bold;
+    
+}
+
+
+ td{
+    padding-left: 10px;
+    width: 500px;
+    border-bottom:1px solid gray;
+    
+}
+
+.brown
+{
+    color:var(--brown) ;
+    font-weight: bold;
+}
+
+
